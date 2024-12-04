@@ -35,7 +35,7 @@ const Evalutaion = () => {
             <div className='bg-[#EFECE6] py-[120px] max-lg:py-20 max-md:py-[60px]'>
                 <div className='max-w-[1068px] pl-[106px] pr-4 mx-auto max-md:pl-[52px] max-sm:pl-4'>
                     <div className='flex flex-wrap -mx-3 justify-between max-md:flex-col-reverse'>
-                        <div className='max-md:w-full w-1/2 px-3 max-md:pt-[84px]'>
+                        <div className='max-md:w-full w-1/2 px-3 max-md:pt-[84px] max-md:flex max-md:justify-center'>
                             <div className='relative max-w-max max-sm:ml-8'>
                                 <img src={girl} alt="girl" className='h-80 max-lg:h-72 max-md:h-[258px] rounded-[40px] object-cover' />
                                 <img src={revenue} alt="revenue" className='h-[171px] max-lg:h-40 max-md:h-[139px] absolute md:top-1/2 md:-translate-y-1/2 md:-left-[90px] object-cover max-md:hidden ' />
