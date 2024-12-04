@@ -22,8 +22,8 @@ const Hero = () => {
         <div>
           <div className=' relative max-w-[247px] max-md:mx-auto mr-[74px]'>
             <img src={graph} alt="graph" className='h-[155px] w-full ' />
-            <img src={upcomingFunds} alt="upcoming-funds" className='h-[77px] absolute -left-10 -top-10' />
-            <img src={forcast} alt="forcast" className='h-[75px] absolute -right-10 -bottom-5' />
+            <img src={upcomingFunds} alt="upcoming-funds" className='h-[77px] absolute md:-left-10 md:-top-10 opacity-[0.95] max-md:-left-[55px] max-md:-bottom-4' />
+            <img src={forcast} alt="forcast" className='h-[75px] absolute md:-right-10 md:-bottom-5 max-md:-right-10 max-md:-top-5' />
           </div>
           <img src={sales} alt="sales" className='h-[99px] mt-7 -ml-20 max-md:mx-auto max-md:hidden' />
         </div>
