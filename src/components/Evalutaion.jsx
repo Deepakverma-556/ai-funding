@@ -16,16 +16,16 @@ const Evalutaion = () => {
                     <p className='font-poppins font-medium text-sm leading-[22px] max-md:text-xs text-white'>MAIN SUPPORTED PLATFORMS</p>
                 </div>
                 <div className='flex items-center gap-[52px] max-md:gap-8 max-sm:gap-0 max-sm:flex-wrap max-sm:justify-center'>
-                    <a href="#amazon">
+                    <a href="https://www.amazon.in">
                         <img src={amazon} alt="amazon" className='h-5 max-sm:h-[25px] max-sm:pr-[67px] max-sm:mb-11' />
                     </a>
-                    <a href="#shopify">
+                    <a href="https://www.shopify.com">
                         <img src={shopify} alt="shopify" className='h-6 max-sm:h-[29px] max-sm:mb-11' />
                     </a>
-                    <a href="#ebay">
+                    <a href="https://www.ebay.com">
                         <img src={ebay} alt="ebay" className='h-6 max-sm:h-[29px] max-sm:pr-[67px]' />
                     </a>
-                    <a href="#commerce">
+                    <a href="https://www.bigcommerce.com">
                         <img src={commerce} alt="commerce" className='h-6 max-sm:h-[23px]' />
                     </a>
                 </div>
