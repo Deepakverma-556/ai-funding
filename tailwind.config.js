@@ -4,7 +4,19 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-bg':"url('./assets/images/hero-bg.webp')",
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+      },
+      screens: {
+        lg: '1025px',
+        md:'770px',
+      }
+      
+    },
   },
   plugins: [],
 }
