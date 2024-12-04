@@ -9,9 +9,9 @@ const Fotter = () => {
                         <a href="#logo">
                             <img src={logo} alt="logo" className='h-11' />
                         </a>
-                        <p className='font-poppins max-w-[163px] font-medium text-sm leading-[22px] text-[#76767F] max-md:pt-[15px]'>8fig, 1717 W 6th St, Austin, Texas</p>
+                        <p className='font-poppins max-w-[163px] font-medium text-sm leading-[22px] text-[#76767F] max-md:pt-[15px]'>8FIG, 1717 W 6TH ST, AUSTIN, TEXAS</p>
                     </div>
-                    <p className='font-poppins font-medium text-sm leading-[22px] text-[#76767F] max-md:hidden'>© 2024 8fig - All Rights Reserved</p>
+                    <p className='font-poppins font-medium text-sm leading-[22px] text-[#76767F] max-md:hidden'>© 2024 8FIG - ALL RIGHTS RESERVED</p>
                     <div className='flex items-center gap-9 max-md:gap-6 max-md:-translate-y-3'>
                         <a href="https://www.facebook.com/">
                             <svg className='hover:scale-110 transition-all duration-300 max-sm:w-[9px] max-sm:h-[17px]' width="15" height="28" viewBox="0 0 15 28" fill="none" xmlns="http://www.w3.org/2000/svg">

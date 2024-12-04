@@ -68,7 +68,7 @@ const Faq = () => {
         <div className='bg-[#EFECE6] pt-[70px] pb-[60px] max-lg:py-20 max-md:py-[60px]'>
             <div className="px-4">
                 <p className='text-[#76767F] font-poppins font-medium text-sm leading-[22px] text-center'>STILL HAVE QUESTIONS?</p>
-                <h2 className='abril-semi text-[39px] max-lg:text-4xl max-md:text-[28px] max-md:leading-9 max-md:pt-[14px] leading-[45px] text-[#0E1122] text-center pt-5'>Learn more with FAQ</h2>
+                <h2 className='abril-semi text-[39px] max-lg:text-4xl max-md:text-[28px] max-md:leading-9 max-md:pt-[14px] leading-[45px] text-[#0E1122] text-center pt-5'>learn more with FAQ</h2>
             </div>
             <div className="max-w-[1240px] mx-auto px-4 pt-6 max-sm:pt-10">
                 <div className="flex flex-col">
