@@ -11,19 +11,19 @@ import business from '../assets/images/business.webp'
 const Evalutaion = () => {
     return (
         <div className='bg-[#0E1122]'>
-            <div className='md:max-w-3xl mx-auto px-4 pt-[46px] pb-[54px] flex items-center gap-[52px] max-lg:py-20  max-md:py-[60px] max-md:gap-8 max-sm:flex-wrap max-md:justify-center'>
+            <div className='md:max-w-3xl max-sm:max-w-[290px] mx-auto px-4 pt-[46px] pb-[54px] flex items-center gap-[52px] max-lg:py-20  max-md:py-[60px] max-md:gap-8 max-sm:flex-wrap max-md:justify-center'>
                 <div>
                     <p className='font-poppins font-medium text-sm leading-[22px] max-md:text-xs text-white'>MAIN SUPPORTED PLATFORMS</p>
                 </div>
-                <div className='flex items-center gap-[52px] max-md:gap-8 max-sm:flex-wrap max-sm:justify-center'>
+                <div className='flex items-center gap-[52px] max-md:gap-8 max-sm:gap-0 max-sm:flex-wrap max-sm:justify-center'>
                     <a href="#amazon">
-                        <img src={amazon} alt="amazon" className='h-5 max-sm:h-[25px]' />
+                        <img src={amazon} alt="amazon" className='h-5 max-sm:h-[25px] max-sm:pr-[67px] max-sm:mb-11' />
                     </a>
                     <a href="#shopify">
-                        <img src={shopify} alt="shopify" className='h-6 max-sm:h-[29px]' />
+                        <img src={shopify} alt="shopify" className='h-6 max-sm:h-[29px] max-sm:mb-11' />
                     </a>
                     <a href="#ebay">
-                        <img src={ebay} alt="ebay" className='h-6 max-sm:h-[29px]' />
+                        <img src={ebay} alt="ebay" className='h-6 max-sm:h-[29px] max-sm:pr-[67px]' />
                     </a>
                     <a href="#commerce">
                         <img src={commerce} alt="commerce" className='h-6 max-sm:h-[23px]' />
@@ -59,7 +59,7 @@ const Evalutaion = () => {
                 <div className='max-w-[1199px] px-4 mx-auto'>
                     <div className='flex items-center justify-between max-md:flex-wrap max-md:gap-12 max-sm:gap-8'>
                         <div className='flex flex-col justify-center'>
-                            <img src={business} alt="business" className='h-8 w-20 mx-auto' />
+                            <img src={business} alt="business" className='h-8 w-20 max-sm:h-5 max-sm:w-[53px] mx-auto' />
                             <p className='abril-semi text-[50px] max-lg:text-4xl max-sm:text-[31px] max-sm:leading-[43px] leading-[68px] text-white pt-[10px]'>‘A’ Rating </p>
                         </div>
                         <div>
