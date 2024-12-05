@@ -3,7 +3,7 @@ import seller from '../assets/images/seller-girl.webp'
 
 const Seller = () => {
   return (
-      <div className='py-12'>
+      <div className='py-12 max-lg:py-20 max-md:pt-[60px] max-md:pb-[90px] overflow-hidden'>
           <div className='max-w-[1180px] mx-auto px-4'>
               <div className='flex items-center justify-between max-md:flex-wrap'>
                   <div className='max-md:text-center max-md:w-full'>
@@ -11,7 +11,7 @@ const Seller = () => {
                       <button className='font-poppins text-base max-md:text-sm font-medium leading-6 max-md:leading-[22px] text-white px-11 py-[10px] max-md:px-6 max-md:py-[9px] bg-[#4C57FF] rounded-3xl hover:bg-[#0E1122] transition-all duration-300'>Apply now</button>
                   </div>
                   <div className='max-md:pt-[43px] max-md:mx-auto'>
-                      <img src={seller} alt="seller" className='h-[293px] rounded-[40px] object-cover' />
+                      <img src={seller} alt="seller" className='h-[293px] rounded-[40px] object-cover max-sm:-translate-x-16 max-sm:min-w-[400px]' />
                   </div>
               </div>
           </div>

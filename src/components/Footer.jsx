@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/images/logo.webp'
-const Fotter = () => {
+const Footer = () => {
     return (
         <div className='pt-[54px] pb-16 max-lg:py-20 max-md:pt-[60px] max-md:pb-7 bg-[#0E1122]'>
             <div className='max-w-[1366px] mx-auto px-4'>
@@ -46,4 +46,4 @@ const Fotter = () => {
     )
 }
 
-export default Fotter
+export default Footer

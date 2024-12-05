@@ -8,9 +8,9 @@ import revenue from '../assets/images/revenue.webp'
 import revenue2 from '../assets/images/revenue-2.webp'
 import business from '../assets/images/business.webp'
 
-const Evalutaion = () => {
+const Evaluation = () => {
     return (
-        <div className='bg-[#0E1122]'>
+        <div className='bg-[#0E1122] overflow-hidden'>
             <div className='md:max-w-3xl max-sm:max-w-[290px] mx-auto px-4 pt-[46px] pb-[54px] flex items-center gap-[52px] max-lg:py-20  max-md:py-[60px] max-md:gap-8 max-sm:flex-wrap max-md:justify-center'>
                 <div>
                     <p className='font-poppins font-medium text-sm leading-[22px] max-md:text-xs text-white'>MAIN SUPPORTED PLATFORMS</p>
@@ -32,18 +32,18 @@ const Evalutaion = () => {
             </div>
 
             {/*=============================eveluation========================= */}
-            <div className='bg-[#EFECE6] py-[120px] max-lg:py-20 max-md:py-[60px]'>
+            <div className='bg-[#EFECE6] py-[120px] max-lg:py-20 max-md:py-[60px] overflow-hidden'>
                 <div className='max-w-[1068px] pl-[106px] pr-4 mx-auto max-md:pl-[52px] max-sm:pl-4'>
                     <div className='flex flex-wrap -mx-3 justify-between max-md:flex-col-reverse'>
                         <div className='max-md:w-full w-1/2 px-3 max-md:pt-[84px] max-md:flex max-md:justify-center'>
-                            <div className='relative max-w-max max-sm:ml-8'>
-                                <img src={girl} alt="girl" className='h-80 max-lg:h-72 max-md:h-[258px] rounded-[40px] object-cover' />
+                            <div className='relative max-w-max max-sm:ml-8 max-sm:translate-x-[30px]'>
+                                <img src={girl} alt="girl" className='h-80 max-lg:h-72 max-md:h-[258px] rounded-[40px] object-cover max-sm:min-w-[360px]' />
                                 <img src={revenue} alt="revenue" className='h-[171px] max-lg:h-40 max-md:h-[139px] absolute md:top-1/2 md:-translate-y-1/2 md:-left-[90px] object-cover max-md:hidden ' />
                                 <img src={revenue2} alt="revenue2" className='h-[171px] max-lg:h-40 max-md:h-[139px] absolute md:top-1/2 md:-translate-y-1/2 md:-left-[90px] object-cover max-md:-top-11 max-md:-left-9 md:hidden ' />
                             </div>
                         </div>
                         <div className='max-md:w-full max-lg:w-1/2 w-5/12 px-3'>
-                            <div className='max-md:text-center'>
+                            <div className='max-md:text-center max-sm:px-8'>
                                 <div className='w-9 h-9 rounded-full bg-[#0E1122] flex justify-center abril-semi text-[28px] text-white max-md:mx-auto'>1</div>
                                 <p className='abril-semi font-semibold text-[39px] max-lg:text-4xl max-md:text-[28px] max-md:leading-9 leading-[45px] text-[#0E1122] md:max-w-[358px] pt-[19px] pb-1 max-md:py-[14px]'>Get an AI evaluation of your supply chain needs</p>
                                 <p className='font-poppins font-medium text-[22px] max-lg:text-xl max-md:text-lg max-md:leading-7 leading-[30px] text-[#0E1122] pb-5 max-md:pb-[14px]'>By analyzing your sales velocity and growth potential.</p>
@@ -84,4 +84,4 @@ const Evalutaion = () => {
     )
 }
 
-export default Evalutaion
+export default Evaluation
